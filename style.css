@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.todo-list .activities-log-box .log-box-heading {
+  font-size: 24px;
+}
+
+.dot-box {
+  position: absolute;
+  right: 30px;
+  width: 125px;
+}
+
+.divider {
+  height: 12px;
+  width: 1px;
+  background-color: #dedede;
+}
+
+.add-circle {
+  margin-right: 10px;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.26);
+}
+
+.add-circle:hover {
+  cursor: pointer;
+}
+
+#click-event:hover {
+  cursor: pointer;
+}
+
+.popup {
+  color: black;
+  border: 3px solid gray;
+  width: 150px;
+}
+
+.date {
+  color: gray;
+}
+
+.nick-name {
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
